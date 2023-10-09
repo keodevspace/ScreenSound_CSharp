@@ -21,10 +21,14 @@ void ExibirOpcoesMenu()
     Console.WriteLine("2 - Mostrar Bandas");
     Console.WriteLine("3 - Avaliar Banda");
     Console.WriteLine("4 - Exibir Média de Banda");
-    Console.WriteLine("E - Sair");
-    Console.WriteLine("\nDigite a opção desejada:");
- }
+    Console.WriteLine("5 - Sair");
 
+    Console.Write("\nDigite a opção desejada: ");
+
+}  
 
 ExibirMensagemDeBoasVindas();
 ExibirOpcoesMenu();
+
+
+
