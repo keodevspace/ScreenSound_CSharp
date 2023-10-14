@@ -24,6 +24,30 @@ void ExibirOpcoesMenu()
     Console.WriteLine("5 - Sair");
 
     Console.Write("\nDigite a opção desejada: ");
+    string opcaoEscolhida = Console.ReadLine();
+    int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
+
+    switch (opcaoEscolhidaNumerica)
+    {
+        case 1:
+            Console.WriteLine("\nCadastrar Banda");
+            break;
+        case 2:
+            Console.WriteLine("\nMostrar Bandas");
+            break;
+        case 3:
+            Console.WriteLine("\nAvaliar Banda");
+            break;
+        case 4:
+            Console.WriteLine("\nExibir Média de Banda");
+            break;
+        case 5:
+            Console.WriteLine("\nSair");
+            break;
+        default:
+            Console.WriteLine("\nOpção Inválida");
+            break;
+    }
 
 }  
 
